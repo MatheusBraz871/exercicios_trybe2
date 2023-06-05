@@ -11,4 +11,4 @@ const ano = 12;
 for (let index = 1; index <= ano; index += 1) {
     console.log(`mes ${index}`);
 } 
-console.log('acabou o ano');
+console.log('acabou o ano'); 

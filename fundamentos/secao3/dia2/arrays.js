@@ -1,0 +1,13 @@
+const shoppingList = ['Arroz', 'Batata', 'Leite Ninho', 'Sucrilhos'];
+const item1 = shoppingList[2];
+console.log(shoppingList[0]);
+console.log(item1);
+shoppingList[3] = 'Nescau sereal';
+shoppingList[0] = 'carne Bovina';
+shoppingList.pop();
+shoppingList.shift();
+shoppingList.push('aveia');
+shoppingList.unshift('arroz');
+console.log(shoppingList);
+console.log(shoppingList.length);
+console.log(shoppingList[shoppingList.length - 1]);

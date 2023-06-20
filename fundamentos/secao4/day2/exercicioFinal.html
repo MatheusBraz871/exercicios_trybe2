@@ -97,7 +97,11 @@
         h3.innerText = index;
         parentMain.appendChild(h3);
       }
-    
+    text1.className = 'title';
+    for (let index = 0; index < 3; inde += 1) {
+        const h3 = getElementsByTagName('h3')
+        h3[index].className = 'description';
+    }
     </script>
   </body>
 </html>

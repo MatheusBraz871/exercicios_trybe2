@@ -1,0 +1,11 @@
+const movieName = document.getElementById('page-title');
+movieName.innerText = 'The last Samurai!';
+const movieResume = document.getElementById('first-paragraph');
+movieResume.innerText = 'Este épico historico retrata os ultimos dias da cultura dos samurais no japão feudal onde a modernidade vai de econtro a cultura Japonesa e suas tradições mais profundas, o que gera uma resistencia por parte do povo japones, entre eles os samurais que entram em rebelião, não contra o governo, mas contra aqueles que colocam suas ambições acima do bem estar do povo';
+const movieSubtitle = document.getElementById('subtitle');
+movieSubtitle.innerText = 'Principais informações.'
+const paragraphStyle = document.getElementsByClassName('paragraph-style');
+paragraphStyle[0].style.fontStyle = 'italic';
+paragraphStyle[1].innerText = 'Direção; eu não sei, mas o filme é do tom cruise. roteiro; mesma coisa.';
+const subTitleStyle = document.getElementsByTagName('h2')[0];
+subTitleStyle.style.color = 'purple';

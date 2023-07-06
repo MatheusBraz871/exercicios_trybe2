@@ -28,6 +28,11 @@
     const pai2 = document.getElementById('elementoOndeVoceEsta');
     newElement2.id = 'filhoDoElementoOndeVoceEsta';
     pai2.appendChild(newElement2);
+    const newElement3 = document.createElement('section');
+    const pai3 = document.getElementById('primeiroFilhoDoFilho');
+    newElement3.id = 'filhoDoPriemiroFilhoDofilho';
+    pai3.appendChild(newElement3); 
+    const terceiroFilho = newElement3.parentElement.parentElement.nextElementSibling;
 </script>
 </body>
 </html>

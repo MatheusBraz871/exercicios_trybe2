@@ -1,0 +1,10 @@
+const whereAreYou = document.getElementById('where-are-you');
+const parente = whereAreYou.parentElement;
+parente.style.color = 'purple';
+const previous = whereAreYou.firstElementChild;
+previous.innerText = 'ta dificil, mas eu to tentando, espero que no fim de tudo certo';
+const firstChild = parente.firstElementChild;
+whereAreYou.previousElementSibling;
+whereAreYou.nextSibling;
+whereAreYou.nextElementSibling;
+const thirdChild = parente.lastElementChild.previousElementSibling;

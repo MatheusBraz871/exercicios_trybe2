@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,13 +17,17 @@
           Atenção!
           <section id="terceiroFilho"></section>
           <section id="quartoEUltimoFilho"></section>
-        </section>
-      </main>
-      <script>
-        const parent = document.getElementById('pai');
-        const irmaoElementoOndeVoceEsta = document.createElement('section');
-        irmaoElementoOndeVoceEsta.id = 'irmão1';
-        parent.appendChild(irmaoElementoOndeVoceEsta);
-      </script>
+        </section>    
+    </main>
+<script>
+    const newElement = document.createElement('section');
+    const pai = document.getElementById('pai');
+    newElement.id = 'imaoDoElementoOndeVoceEsta';
+    pai.appendChild(newElement);
+    const newElement2 = document.createElement('section');
+    const pai2 = document.getElementById('elementoOndeVoceEsta');
+    newElement2.id = 'filhoDoElementoOndeVoceEsta';
+    pai2.appendChild(newElement2);
+</script>
 </body>
 </html>

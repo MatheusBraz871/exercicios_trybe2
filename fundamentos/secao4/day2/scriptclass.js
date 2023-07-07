@@ -1,12 +1,23 @@
 const firstParent = document.getElementById('first');
 
-const createDiv = (classElements, element) => {
-    const newDiv = document.createElement(element);
-    newDiv.className = classElements;
-    return newDiv;
+const createElement = (classElements, element) => {
+    const newElement = document.createElement(element);
+    newElement.className = classElements;
+    return newElement;
 };
 
-firstParent.appendChild(createDiv('small circle green', 'div'));
+const addElement = (parent, child) => {
+    parent.appendChild(child);
+}
+
+addElement(firstParent, createElement('small circle green', 'div'));
+addElement(firstParent, createElement('small circle yellow', 'div'));
+addElement(firstParent, createElement('small circle red', 'div'));
+addElement(firstParent, createElement('small square green', 'div'));
+addElement(firstParent, createElement('small square yellow', 'div'));
+addElement(firstParent, createElement('small square red', 'div'));
+
+//firstParent.createElement('small circle green', 'div');(createDiv('small circle green', 'div'));
 
 //let newDiv = document.createElement('div'); 
 //newDiv.classList.add('circle');

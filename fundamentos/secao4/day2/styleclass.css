@@ -1,0 +1,45 @@
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 100%;
+}
+
+.square {
+    display: inline-block;
+    border-width: 10px;
+}
+
+.big {
+    width: 500px;
+    height: 500px;
+}
+
+.medium {
+    width: 250px;
+    width: 250px;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+}
+
+#first {
+    border: 2px solid black;
+    margin: auto;
+    width: 500px;
+    height: 100px;
+}
+
+

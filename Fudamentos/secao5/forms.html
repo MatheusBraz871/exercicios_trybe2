@@ -7,12 +7,17 @@
 </head>
 <body>
     <h1>FORMULÁRIO</h1>
-    <form action="" method="GET">
+    <form action="" method="GET" enctype="multipart/form-data">
         <label for="inpunt-email">Digite seu email;</label>
         <input type="text" placeholder="digite seu email" required name="email" class="" value="" id="inpunt-email">
-        <button type="submit">Enviar</button>
+        <label for="senha1">digite sua senha;</label>
+        <input type="password" name="senha" placeholder="digite sua senha" id="senha1" required>
         <br>
-        <input type="checkbox" id="dieta-1" value="car" name="dieta">arroz
+        <label for="body-picture1">coloque aqui uma foto do seu corpo para analise e biopedancia</label>
+        <input type="file" name="body-picture" id="body-picture1">
+        <br>
+        <input type="checkbox" id="dieta-1" value="car" name="dieta"> 
+        <label for="dieta-1">arroz</label>
         <input type="checkbox" id="dieta-2" value="prot" name="dieta">peito de frango
         <input type="checkbox" id="dieta-3" value="prot1" name="dieta">patinho moido
         <input type="checkbox" id="dieta-4" value="fat" name="dieta">iorgute natural
@@ -22,6 +27,15 @@
         <label for="estado-1">acima de 90kg</label>
         <label for="estado-2"><input type="radio" name="estado-corporeo" id="estado-2" value="skinie">abaixo de 90kg
         </label>
+        <br>
+        <label for="biotipo">Seu biotipo</label>
+        <select name="biotipo" id="dropdown-biotipo">
+            <option value="skinie1">Hectomorfo</option>
+            <option value="fat1">Mesomorfo</option>
+            <option value="strong1">Endomorfo</option>
+        </select>
+        <br>
+        <button type="submit">Enviar</button>
     </form>
 </body>
 </html>
